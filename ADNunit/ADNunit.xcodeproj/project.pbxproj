@@ -23,6 +23,7 @@
 		B84D70DF17FD8088006B87C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84D70BA17FD8087006B87C1 /* Foundation.framework */; };
 		B84D70E717FD8088006B87C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B84D70E517FD8088006B87C1 /* InfoPlist.strings */; };
 		B84D70EA17FD8088006B87C1 /* ADNunitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B84D70E917FD8088006B87C1 /* ADNunitTests.m */; };
+		B84D70F617FD825A006B87C1 /* ADNModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B84D70F517FD825A006B87C1 /* ADNModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		B84D70E617FD8088006B87C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B84D70E817FD8088006B87C1 /* ADNunitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADNunitTests.h; sourceTree = "<group>"; };
 		B84D70E917FD8088006B87C1 /* ADNunitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADNunitTests.m; sourceTree = "<group>"; };
+		B84D70F417FD825A006B87C1 /* ADNModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADNModel.h; path = model/ADNModel.h; sourceTree = "<group>"; };
+		B84D70F517FD825A006B87C1 /* ADNModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADNModel.m; path = model/ADNModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,7 @@
 		B84D70BE17FD8087006B87C1 /* ADNunit */ = {
 			isa = PBXGroup;
 			children = (
+				B84D70F317FD823B006B87C1 /* model */,
 				B84D70C717FD8087006B87C1 /* ADNAppDelegate.h */,
 				B84D70C817FD8087006B87C1 /* ADNAppDelegate.m */,
 				B84D70D017FD8088006B87C1 /* ADNViewController.h */,
@@ -158,6 +162,15 @@
 				B84D70E517FD8088006B87C1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B84D70F317FD823B006B87C1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B84D70F417FD825A006B87C1 /* ADNModel.h */,
+				B84D70F517FD825A006B87C1 /* ADNModel.m */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +287,7 @@
 				B84D70C517FD8087006B87C1 /* main.m in Sources */,
 				B84D70C917FD8087006B87C1 /* ADNAppDelegate.m in Sources */,
 				B84D70D217FD8088006B87C1 /* ADNViewController.m in Sources */,
+				B84D70F617FD825A006B87C1 /* ADNModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +397,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ADNunit/ADNunit-Prefix.pch";
 				INFOPLIST_FILE = "ADNunit/ADNunit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +409,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ADNunit/ADNunit-Prefix.pch";
 				INFOPLIST_FILE = "ADNunit/ADNunit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -402,7 +418,6 @@
 		B84D70F117FD8088006B87C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ADNunit.app/ADNunit";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -411,7 +426,6 @@
 				GCC_PREFIX_HEADER = "ADNunit/ADNunit-Prefix.pch";
 				INFOPLIST_FILE = "ADNunitTests/ADNunitTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -419,7 +433,6 @@
 		B84D70F217FD8088006B87C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ADNunit.app/ADNunit";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -428,7 +441,6 @@
 				GCC_PREFIX_HEADER = "ADNunit/ADNunit-Prefix.pch";
 				INFOPLIST_FILE = "ADNunitTests/ADNunitTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
