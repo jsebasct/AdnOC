@@ -1,0 +1,3 @@
+# ignore some directories
+TimeZones/TimeZones.xcodeproj/project.xcworkspace/
+TimeZones/TimeZones.xcodeproj/xcuserdata/

@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B84D70B917FD8087006B87C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84D70B817FD8087006B87C1 /* UIKit.framework */; };
+		B84D70BB17FD8087006B87C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84D70BA17FD8087006B87C1 /* Foundation.framework */; };
+		B84D70BD17FD8087006B87C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84D70BC17FD8087006B87C1 /* CoreGraphics.framework */; };
+		B84D70C317FD8087006B87C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B84D70C117FD8087006B87C1 /* InfoPlist.strings */; };
+		B84D70C517FD8087006B87C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B84D70C417FD8087006B87C1 /* main.m */; };
+		B84D70C917FD8087006B87C1 /* ADNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B84D70C817FD8087006B87C1 /* ADNAppDelegate.m */; };
+		B84D70CB17FD8087006B87C1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B84D70CA17FD8087006B87C1 /* Default.png */; };
+		B84D70CD17FD8087006B87C1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B84D70CC17FD8087006B87C1 /* Default@2x.png */; };
+		B84D70CF17FD8088006B87C1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B84D70CE17FD8088006B87C1 /* Default-568h@2x.png */; };
+		B84D70D217FD8088006B87C1 /* ADNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B84D70D117FD8088006B87C1 /* ADNViewController.m */; };
+		B84D70D517FD8088006B87C1 /* ADNViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B84D70D317FD8088006B87C1 /* ADNViewController.xib */; };
+		B84D70DD17FD8088006B87C1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84D70DC17FD8088006B87C1 /* SenTestingKit.framework */; };
+		B84D70DE17FD8088006B87C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84D70B817FD8087006B87C1 /* UIKit.framework */; };
+		B84D70DF17FD8088006B87C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84D70BA17FD8087006B87C1 /* Foundation.framework */; };
+		B84D70E717FD8088006B87C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B84D70E517FD8088006B87C1 /* InfoPlist.strings */; };
+		B84D70EA17FD8088006B87C1 /* ADNunitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B84D70E917FD8088006B87C1 /* ADNunitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B84D70E017FD8088006B87C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B84D70AD17FD8087006B87C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B84D70B417FD8087006B87C1;
+			remoteInfo = ADNunit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B84D70B517FD8087006B87C1 /* ADNunit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADNunit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B84D70B817FD8087006B87C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B84D70BA17FD8087006B87C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B84D70BC17FD8087006B87C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B84D70C017FD8087006B87C1 /* ADNunit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ADNunit-Info.plist"; sourceTree = "<group>"; };
+		B84D70C217FD8087006B87C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B84D70C417FD8087006B87C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B84D70C617FD8087006B87C1 /* ADNunit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ADNunit-Prefix.pch"; sourceTree = "<group>"; };
+		B84D70C717FD8087006B87C1 /* ADNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADNAppDelegate.h; sourceTree = "<group>"; };
+		B84D70C817FD8087006B87C1 /* ADNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADNAppDelegate.m; sourceTree = "<group>"; };
+		B84D70CA17FD8087006B87C1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B84D70CC17FD8087006B87C1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B84D70CE17FD8088006B87C1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B84D70D017FD8088006B87C1 /* ADNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADNViewController.h; sourceTree = "<group>"; };
+		B84D70D117FD8088006B87C1 /* ADNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADNViewController.m; sourceTree = "<group>"; };
+		B84D70D417FD8088006B87C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ADNViewController.xib; sourceTree = "<group>"; };
+		B84D70DB17FD8088006B87C1 /* ADNunitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADNunitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B84D70DC17FD8088006B87C1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B84D70E417FD8088006B87C1 /* ADNunitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ADNunitTests-Info.plist"; sourceTree = "<group>"; };
+		B84D70E617FD8088006B87C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B84D70E817FD8088006B87C1 /* ADNunitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADNunitTests.h; sourceTree = "<group>"; };
+		B84D70E917FD8088006B87C1 /* ADNunitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADNunitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B84D70B217FD8087006B87C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84D70B917FD8087006B87C1 /* UIKit.framework in Frameworks */,
+				B84D70BB17FD8087006B87C1 /* Foundation.framework in Frameworks */,
+				B84D70BD17FD8087006B87C1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84D70D717FD8088006B87C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84D70DD17FD8088006B87C1 /* SenTestingKit.framework in Frameworks */,
+				B84D70DE17FD8088006B87C1 /* UIKit.framework in Frameworks */,
+				B84D70DF17FD8088006B87C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B84D70AC17FD8087006B87C1 = {
+			isa = PBXGroup;
+			children = (
+				B84D70BE17FD8087006B87C1 /* ADNunit */,
+				B84D70E217FD8088006B87C1 /* ADNunitTests */,
+				B84D70B717FD8087006B87C1 /* Frameworks */,
+				B84D70B617FD8087006B87C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B84D70B617FD8087006B87C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B84D70B517FD8087006B87C1 /* ADNunit.app */,
+				B84D70DB17FD8088006B87C1 /* ADNunitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B84D70B717FD8087006B87C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B84D70B817FD8087006B87C1 /* UIKit.framework */,
+				B84D70BA17FD8087006B87C1 /* Foundation.framework */,
+				B84D70BC17FD8087006B87C1 /* CoreGraphics.framework */,
+				B84D70DC17FD8088006B87C1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B84D70BE17FD8087006B87C1 /* ADNunit */ = {
+			isa = PBXGroup;
+			children = (
+				B84D70C717FD8087006B87C1 /* ADNAppDelegate.h */,
+				B84D70C817FD8087006B87C1 /* ADNAppDelegate.m */,
+				B84D70D017FD8088006B87C1 /* ADNViewController.h */,
+				B84D70D117FD8088006B87C1 /* ADNViewController.m */,
+				B84D70D317FD8088006B87C1 /* ADNViewController.xib */,
+				B84D70BF17FD8087006B87C1 /* Supporting Files */,
+			);
+			path = ADNunit;
+			sourceTree = "<group>";
+		};
+		B84D70BF17FD8087006B87C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B84D70C017FD8087006B87C1 /* ADNunit-Info.plist */,
+				B84D70C117FD8087006B87C1 /* InfoPlist.strings */,
+				B84D70C417FD8087006B87C1 /* main.m */,
+				B84D70C617FD8087006B87C1 /* ADNunit-Prefix.pch */,
+				B84D70CA17FD8087006B87C1 /* Default.png */,
+				B84D70CC17FD8087006B87C1 /* Default@2x.png */,
+				B84D70CE17FD8088006B87C1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B84D70E217FD8088006B87C1 /* ADNunitTests */ = {
+			isa = PBXGroup;
+			children = (
+				B84D70E817FD8088006B87C1 /* ADNunitTests.h */,
+				B84D70E917FD8088006B87C1 /* ADNunitTests.m */,
+				B84D70E317FD8088006B87C1 /* Supporting Files */,
+			);
+			path = ADNunitTests;
+			sourceTree = "<group>";
+		};
+		B84D70E317FD8088006B87C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B84D70E417FD8088006B87C1 /* ADNunitTests-Info.plist */,
+				B84D70E517FD8088006B87C1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B84D70B417FD8087006B87C1 /* ADNunit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B84D70ED17FD8088006B87C1 /* Build configuration list for PBXNativeTarget "ADNunit" */;
+			buildPhases = (
+				B84D70B117FD8087006B87C1 /* Sources */,
+				B84D70B217FD8087006B87C1 /* Frameworks */,
+				B84D70B317FD8087006B87C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADNunit;
+			productName = ADNunit;
+			productReference = B84D70B517FD8087006B87C1 /* ADNunit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B84D70DA17FD8088006B87C1 /* ADNunitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B84D70F017FD8088006B87C1 /* Build configuration list for PBXNativeTarget "ADNunitTests" */;
+			buildPhases = (
+				B84D70D617FD8088006B87C1 /* Sources */,
+				B84D70D717FD8088006B87C1 /* Frameworks */,
+				B84D70D817FD8088006B87C1 /* Resources */,
+				B84D70D917FD8088006B87C1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B84D70E117FD8088006B87C1 /* PBXTargetDependency */,
+			);
+			name = ADNunitTests;
+			productName = ADNunitTests;
+			productReference = B84D70DB17FD8088006B87C1 /* ADNunitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B84D70AD17FD8087006B87C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ADN;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = PeopleSoft;
+			};
+			buildConfigurationList = B84D70B017FD8087006B87C1 /* Build configuration list for PBXProject "ADNunit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B84D70AC17FD8087006B87C1;
+			productRefGroup = B84D70B617FD8087006B87C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B84D70B417FD8087006B87C1 /* ADNunit */,
+				B84D70DA17FD8088006B87C1 /* ADNunitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B84D70B317FD8087006B87C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84D70C317FD8087006B87C1 /* InfoPlist.strings in Resources */,
+				B84D70CB17FD8087006B87C1 /* Default.png in Resources */,
+				B84D70CD17FD8087006B87C1 /* Default@2x.png in Resources */,
+				B84D70CF17FD8088006B87C1 /* Default-568h@2x.png in Resources */,
+				B84D70D517FD8088006B87C1 /* ADNViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84D70D817FD8088006B87C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84D70E717FD8088006B87C1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B84D70D917FD8088006B87C1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B84D70B117FD8087006B87C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84D70C517FD8087006B87C1 /* main.m in Sources */,
+				B84D70C917FD8087006B87C1 /* ADNAppDelegate.m in Sources */,
+				B84D70D217FD8088006B87C1 /* ADNViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84D70D617FD8088006B87C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84D70EA17FD8088006B87C1 /* ADNunitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B84D70E117FD8088006B87C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B84D70B417FD8087006B87C1 /* ADNunit */;
+			targetProxy = B84D70E017FD8088006B87C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B84D70C117FD8087006B87C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B84D70C217FD8087006B87C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B84D70D317FD8088006B87C1 /* ADNViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B84D70D417FD8088006B87C1 /* en */,
+			);
+			name = ADNViewController.xib;
+			sourceTree = "<group>";
+		};
+		B84D70E517FD8088006B87C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B84D70E617FD8088006B87C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B84D70EB17FD8088006B87C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B84D70EC17FD8088006B87C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B84D70EE17FD8088006B87C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ADNunit/ADNunit-Prefix.pch";
+				INFOPLIST_FILE = "ADNunit/ADNunit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B84D70EF17FD8088006B87C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ADNunit/ADNunit-Prefix.pch";
+				INFOPLIST_FILE = "ADNunit/ADNunit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B84D70F117FD8088006B87C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ADNunit.app/ADNunit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ADNunit/ADNunit-Prefix.pch";
+				INFOPLIST_FILE = "ADNunitTests/ADNunitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B84D70F217FD8088006B87C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ADNunit.app/ADNunit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ADNunit/ADNunit-Prefix.pch";
+				INFOPLIST_FILE = "ADNunitTests/ADNunitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B84D70B017FD8087006B87C1 /* Build configuration list for PBXProject "ADNunit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B84D70EB17FD8088006B87C1 /* Debug */,
+				B84D70EC17FD8088006B87C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B84D70ED17FD8088006B87C1 /* Build configuration list for PBXNativeTarget "ADNunit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B84D70EE17FD8088006B87C1 /* Debug */,
+				B84D70EF17FD8088006B87C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B84D70F017FD8088006B87C1 /* Build configuration list for PBXNativeTarget "ADNunitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B84D70F117FD8088006B87C1 /* Debug */,
+				B84D70F217FD8088006B87C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B84D70AD17FD8087006B87C1 /* Project object */;
+}
